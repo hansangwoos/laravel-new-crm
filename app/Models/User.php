@@ -50,8 +50,7 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
             "is_active" => "boolean",
-            "last_login_at" => "datetime",
-            "login_ip" => "ip"
+            "last_login_at" => "datetime"
         ];
     }
 }
